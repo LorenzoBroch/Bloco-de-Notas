@@ -66,7 +66,7 @@ if(isset($_POST['adicionar_nota'])) {
         </table>
     </form>
     <br>
-    <h2> Visualizar Usuário: </h2>
+    <h2> Visualizar Usuários: </h2>
     <?php
     $sql_user = "SELECT id_usuario,nome_usuario,email_usuario,senha_usuario from usuario";
 
