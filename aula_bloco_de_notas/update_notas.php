@@ -1,5 +1,4 @@
 <?php 
-var_dump ($_GET);
 include 'db_connect.php';
 
 $sql_notas = "SELECT id_notas, titulo_notas, conteudo_notas, categoria_notas from notas";
